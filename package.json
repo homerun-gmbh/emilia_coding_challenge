@@ -12,6 +12,14 @@
     "url": "git+https://github.com/homerun-gmbh/emilia_coding_challenge.git"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
     "jest": "^29.5.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
   }
 }
