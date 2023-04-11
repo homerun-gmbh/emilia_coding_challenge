@@ -1,5 +1,11 @@
 # emilia_coding_challenge
-An empty Javascript project with Jest
+An empty JavaScript project with Jest
+
+## Setup
+If you don't have yarn installed locally, install it first by running e.g.:
+```
+npm install --global yarn
+```
 
 ## Tests
 This empty project uses [Jest](https://jestjs.io/docs/getting-started) for tests
@@ -7,7 +13,7 @@ This empty project uses [Jest](https://jestjs.io/docs/getting-started) for tests
 To run all tests use the following command:
 
 ```
-npm test
+yarn test
 ```
 
 The test files are named as their corresponding source files but with the suffix `*.spec.js`.

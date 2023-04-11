@@ -2,6 +2,7 @@
   "name": "emilia_coding_challenge",
   "version": "0.1.0",
   "description": "An empty Javascript project with Jest",
+  "license": "UNLICENSED",
   "main": "app.js",
   "scripts": {
     "test": "jest"
